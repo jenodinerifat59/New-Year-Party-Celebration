@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.hero{
+    text-align: center;
+    background-image: url(./images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero p{
+     font-size: 32px;
+     font-weight: 300;
+     padding-top: 150px;
+     color: #ffff;
+}
+
+.hero h1{
+     max-width: 632px;
+     font-size: 72px;
+     font-weight: 900;
+     margin-top: 16px;
+     padding-bottom: 204px;
+     color: #ffff;
+     line-height: 95px;
+}
