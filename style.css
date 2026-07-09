@@ -7,12 +7,21 @@
     max-width: 1320px;
     margin: 0 auto;
 }
+/* header{
+ text-align: center;
+    background-image: url(./images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+} */
 .hero{
+    /* ----------------------------------------------- */
     text-align: center;
     background-image: url(./images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    /* --------------------------------- */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,4 +41,65 @@
      padding-bottom: 204px;
      color: #ffff;
      line-height: 95px;
+}
+/* ==================== */
+.Off{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Off h2{
+    margin-top: 120px;
+    font-size: 88px;
+    font-weight: 800;
+    color: #FF0000;
+    padding-bottom: 38px;
+}
+.Off p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    padding-bottom: 16px;
+}
+.Off h6{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    padding-bottom: 38px;
+}
+.midnight-party{
+    padding: 126px;
+    margin-top: 70px;
+    background-image: url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.midnight-party h2{
+ 
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 88px;
+  color: #FFFFFF;
+  letter-spacing: 11%;
+}
+.midnight-party p{
+    margin-top: 24px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.midnight-party button{
+    margin-top: 48px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+ 
+  background: none;
+  border: none;
 }
