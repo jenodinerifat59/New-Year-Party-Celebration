@@ -187,3 +187,76 @@
   margin-bottom: 43px;
   max-width: 276px;
 }
+/* =================== */
+.holiday {
+  text-align: center;
+  margin-top: 120px;
+}
+.holiday h4{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+.holiday h3{
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+    margin-bottom: 16px;
+}
+.holiday h2{
+  font-size: 72px;
+  font-weight: 900;
+  color: #070211;
+  margin-bottom: 24px;
+}
+.holiday h2 span{
+  color: #FF0000;
+}
+.holiday p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #070211;
+}
+.holiday .discount img{
+   position: relative;
+   left: 35%;
+   top: 141px;
+   width: 305.69px;
+   height: 305.69px;
+}
+.holiday .holiday-bottom{
+  position: relative;
+  margin-top: 140px;
+}
+.holiday .holiday-bottom #box-img{
+  position: absolute;
+  top: -450px;
+  left: -3%;
+}
+/* ========================= */
+.best-offer h4{
+  color: #FF0000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 120px;
+}
+.best-offer h2{
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.best-offer p{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+  line-height: 32px;
+  color: #070211;
+}
+.best-offer .box-img{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
